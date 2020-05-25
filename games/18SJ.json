@@ -178,6 +178,14 @@
   "trains": [
     {
       "name": "2",
+      "quantity": 1,
+      "price": "KHJ",
+      "color": "yellow",
+      "image": "2T",
+      "rust": "4"
+    },
+    {
+      "name": "2",
       "quantity": 6,
       "price": 80,
       "color": "yellow",
@@ -411,23 +419,26 @@
     {
       "name": "Stock Round",
       "steps": [
-        "Sell any number of shares",
-        "Buy one share",
-        "Sell any number of shares"
+        "Sell any number of shares.",
+        "Buy one share.",
+        "Sell any number of shares."
       ],
       "ordered": true
     },
     {
       "name": "Operating Round",
       "steps": [
-        "Lay or upgrade track",
-        "Purchase a station",
-        "Run trains",
-        "Pay dividends or withhold revenue",
-        "Purchase trains"
+        "Lay or upgrade track.",
+        "Purchase a station.",
+        "Run trains.",
+        "Pay dividends or withhold revenue.",
+        "Purchase trains."
       ],
       "ordered": true,
-      "optional": ["Purchase private companies"]
+      "optional": [
+        "Purchase private companies.",
+        "Redeem one share (phases 1-4 only)."
+      ]
     }
   ],
   "stock": {
